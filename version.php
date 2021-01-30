@@ -17,7 +17,7 @@
 
 /**
  * MOODLE VERSION INFORMATION
- *
+ *holaque gace
  * This file defines the current version of the core Moodle code being used.
  * This is compared against the values stored in the database to determine
  * whether upgrades should be performed (see lib/db/*.php)
