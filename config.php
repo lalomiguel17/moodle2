@@ -134,6 +134,7 @@ $CFG->dboptions = array(
 
 $CFG->wwwroot   = 'http://localhost/moodle1';
 
+//$CFG->wwwroot   = 'http://192.168.0.2/moodle1';
 
 //=========================================================================
 // 3. DATA FILES LOCATION
