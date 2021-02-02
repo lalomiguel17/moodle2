@@ -8,7 +8,7 @@
 ///////////////////////////////////////////////////////////////////////////
 //                                                                       //
 // NOTICE OF COPYRIGHT                                                   //
-//                                                                       //
+//                  Hola                                                     //
 // Moodle - Modular Object-Oriented Dynamic Learning Environment         //
 //          http://moodle.org                                            //
 //                                                                       //
