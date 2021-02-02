@@ -25,7 +25,7 @@
 // GNU General Public License for more details:                          //
 //                                                                       //
 //          http://www.gnu.org/copyleft/gpl.html                         //
-//                                                                       //
+//            cambios pa mi                                                           //
 ///////////////////////////////////////////////////////////////////////////
 unset($CFG);  // Ignore this line
 global $CFG;  // This is necessary here for PHPUnit execution
