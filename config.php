@@ -135,6 +135,7 @@ $CFG->dboptions = array(
 $CFG->wwwroot   = 'http://localhost/moodle2';
 
 //$CFG->wwwroot   = 'http://192.168.0.2/moodle1';
+//aqui se muestra la pagina en movil: https://mobileapp.moodledemo.net/
 
 //=========================================================================
 // 3. DATA FILES LOCATION
