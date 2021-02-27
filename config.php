@@ -131,10 +131,10 @@ $CFG->dboptions = array(
 //
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
-
-$CFG->wwwroot   = 'http://localhost/moodle2';
-
-//$CFG->wwwroot   = 'http://192.168.0.2/moodle1';
+//192.168.1.104
+$CFG->wwwroot   = 'https://localhost/moodle2';
+//192.168.1.136
+$CFG->wwwroot   = 'https://192.168.1.104/moodle2';
 //aqui se muestra la pagina en movil: https://mobileapp.moodledemo.net/
 
 //=========================================================================
