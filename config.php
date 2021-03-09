@@ -150,7 +150,7 @@ $CFG->wwwroot   = 'https://192.168.1.104/moodle2';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = 'd:\\moodledata';
+$CFG->dataroot  = 'd:\\XAMPP\htdocs\moodledata';
 
 
 //=========================================================================
