@@ -133,8 +133,9 @@ $CFG->dboptions = array(
 // http://docs.moodle.org/en/masquerading
 //192.168.1.104
 $CFG->wwwroot   = 'https://localhost/moodle2';
-//192.168.1.136
-$CFG->wwwroot   = 'https://192.168.1.104/moodle2';
+
+//$CFG->wwwroot   = 'https://192.168.1.104/moodle2';
+$CFG->wwwroot   = 'https://192.168.1.136/moodle2';
 //aqui se muestra la pagina en movil: https://mobileapp.moodledemo.net/
 
 //=========================================================================
@@ -151,7 +152,7 @@ $CFG->wwwroot   = 'https://192.168.1.104/moodle2';
 // - On Windows systems you might specify something like 'c:\moodledata'
 
 $CFG->dataroot  = 'd:\\XAMPP\htdocs\moodle2\moodledata';
-
+//$CFG->dataroot  = 'd:\\moodledata';
 
 //=========================================================================
 // 4. DATA FILES PERMISSIONS
@@ -180,6 +181,15 @@ $CFG->directorypermissions = 02777;
 
 $CFG->admin = 'admin';
 
+//se agregaron estos campos de linea de codigo
+
+$CFG->debug = E_ALL;
+$CFG->debugdisplay = 1;
+$CFG->langstringcache = 0;
+$CFG->cachetemplates = 0;
+$CFG->cachejs = 0;
+$CFG->perfdebug = 15;
+$CFG->debugpageinfo = 1;
 
 //=========================================================================
 // 6. OTHER MISCELLANEOUS SETTINGS (ignore these for new installations)
