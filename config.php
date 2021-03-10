@@ -134,8 +134,8 @@ $CFG->dboptions = array(
 //192.168.1.104
 $CFG->wwwroot   = 'https://localhost/moodle2';
 
-//$CFG->wwwroot   = 'https://192.168.1.104/moodle2';
-$CFG->wwwroot   = 'https://192.168.1.136/moodle2';
+$CFG->wwwroot   = 'https://192.168.1.104/moodle2';
+//$CFG->wwwroot   = 'https://192.168.1.136/moodle2';
 //aqui se muestra la pagina en movil: https://mobileapp.moodledemo.net/
 
 //=========================================================================
