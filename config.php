@@ -190,7 +190,7 @@ $CFG->cachetemplates = 0;
 $CFG->cachejs = 0;
 $CFG->perfdebug = 15;
 $CFG->debugpageinfo = 1;
-
+$CFG->keeptempdirectoriesonbackup = true;
 //=========================================================================
 // 6. OTHER MISCELLANEOUS SETTINGS (ignore these for new installations)
 //=========================================================================

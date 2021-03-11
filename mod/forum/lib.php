@@ -873,7 +873,11 @@ EOF;
  * @param stdClass $forum Forum object with extra cmidnumber
  * @param mixed $grades Optional array/object of grade(s); 'reset' means reset grades in gradebook
  */
-function forum_grade_item_update($forum, $ratings = null, $forumgrades = null): void {
+
+
+
+//se comento el archivo forum_grade_update por otro archivo en la pagina de moodle checar link: https://docs.moodle.org/dev/Gradebook_API
+/*function forum_grade_item_update($forum, $ratings = null, $forumgrades = null): void {
     global $CFG;
     require_once("{$CFG->libdir}/gradelib.php");
 
@@ -924,7 +928,44 @@ function forum_grade_item_update($forum, $ratings = null, $forumgrades = null): 
     }
     // Itemnumber 1 is the whole forum grade.
     grade_update('mod/forum', $forum->course, 'mod', 'forum', $forum->id, 1, $forumgrades, $item);
+}*/
+
+
+function forum_grade_item_update($forum, $grades=NULL) {
+    global $CFG;
+    if (!function_exists('grade_update')) { //workaround for buggy PHP versions
+        require_once($CFG->libdir.'/gradelib.php');
+    }
+
+    $params = array('itemname'=>$forum->name, 'idnumber'=>$forum->cmidnumber);
+
+    if (!$forum->assessed or $forum->scale == 0) {
+        $params['gradetype'] = GRADE_TYPE_NONE;
+
+    } else if ($forum->scale > 0) {
+        $params['gradetype'] = GRADE_TYPE_VALUE;
+        $params['grademax']  = $forum->scale;
+        $params['grademin']  = 0;
+
+    } else if ($forum->scale < 0) {
+        $params['gradetype'] = GRADE_TYPE_SCALE;
+        $params['scaleid']   = -$forum->scale;
+    }
+
+    if ($grades  === 'reset') {
+        $params['reset'] = true;
+        $grades = NULL;
+    }
+
+    return grade_update('mod/forum', $forum->course, 'mod', 'forum', $forum->id, 0, $grades, $params);
 }
+
+
+
+
+
+
+
 
 /**
  * Delete grade item for given forum.
