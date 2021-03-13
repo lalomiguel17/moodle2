@@ -560,6 +560,8 @@ $cache = array (
     ),
     'local' => 
     array (
+      'codechecker' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker',
+      'helloworld' => 'D:\\XAMPP\\htdocs\\moodle2/local/helloworld',
       'moodlecheck' => 'D:\\XAMPP\\htdocs\\moodle2/local/moodlecheck',
     ),
     'h5plib' => 
@@ -2879,6 +2881,11 @@ $cache = array (
     'gradingform_rubric\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/grade/grading/form/rubric/classes/privacy/provider.php',
     'h5plib_v124\\local\\library\\handler' => 'D:\\XAMPP\\htdocs\\moodle2/h5p/h5plib/v124/classes/local/library/handler.php',
     'h5plib_v124\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/h5p/h5plib/v124/classes/privacy/provider.php',
+    'local_codechecker\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker/classes/privacy/provider.php',
+    'local_codechecker\\report' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker/classes/report.php',
+    'local_codechecker\\runner' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker/classes/runner.php',
+    'local_codechecker_report' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker/classes/report.php',
+    'local_codechecker_runner' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker/classes/runner.php',
     'local_moodlecheck\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/local/moodlecheck/classes/privacy/provider.php',
     'logstore_database\\helper' => 'D:\\XAMPP\\htdocs\\moodle2/admin/tool/log/store/database/classes/helper.php',
     'logstore_database\\log\\store' => 'D:\\XAMPP\\htdocs\\moodle2/admin/tool/log/store/database/classes/log/store.php',
@@ -4940,6 +4947,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'codechecker' => 'D:\\XAMPP\\htdocs\\moodle2/local/codechecker/settings.php',
         'moodlecheck' => 'D:\\XAMPP\\htdocs\\moodle2/local/moodlecheck/settings.php',
       ),
       'h5plib' => 
