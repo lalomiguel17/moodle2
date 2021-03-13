@@ -560,6 +560,7 @@ $cache = array (
     ),
     'local' => 
     array (
+      'moodlecheck' => 'D:\\XAMPP\\htdocs\\moodle2/local/moodlecheck',
     ),
     'h5plib' => 
     array (
@@ -2878,6 +2879,7 @@ $cache = array (
     'gradingform_rubric\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/grade/grading/form/rubric/classes/privacy/provider.php',
     'h5plib_v124\\local\\library\\handler' => 'D:\\XAMPP\\htdocs\\moodle2/h5p/h5plib/v124/classes/local/library/handler.php',
     'h5plib_v124\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/h5p/h5plib/v124/classes/privacy/provider.php',
+    'local_moodlecheck\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/local/moodlecheck/classes/privacy/provider.php',
     'logstore_database\\helper' => 'D:\\XAMPP\\htdocs\\moodle2/admin/tool/log/store/database/classes/helper.php',
     'logstore_database\\log\\store' => 'D:\\XAMPP\\htdocs\\moodle2/admin/tool/log/store/database/classes/log/store.php',
     'logstore_database\\privacy\\provider' => 'D:\\XAMPP\\htdocs\\moodle2/admin/tool/log/store/database/classes/privacy/provider.php',
@@ -4938,6 +4940,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'moodlecheck' => 'D:\\XAMPP\\htdocs\\moodle2/local/moodlecheck/settings.php',
       ),
       'h5plib' => 
       array (
