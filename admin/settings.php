@@ -163,4 +163,13 @@ if ($settingspage->has_dependencies()) {
     $PAGE->requires->js_call_amd('core/showhidesettings', 'init', [$opts]);
 }
 
+
+
+
+
+
+
+
+
 echo $OUTPUT->footer();
+
