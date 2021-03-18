@@ -189,6 +189,7 @@ $cache = array (
       'label' => 'D:\\XAMPP\\htdocs\\moodle2/mod/label',
       'lesson' => 'D:\\XAMPP\\htdocs\\moodle2/mod/lesson',
       'lti' => 'D:\\XAMPP\\htdocs\\moodle2/mod/lti',
+      'mymodule' => 'D:\\XAMPP\\htdocs\\moodle2/mod/mymodule',
       'page' => 'D:\\XAMPP\\htdocs\\moodle2/mod/page',
       'quiz' => 'D:\\XAMPP\\htdocs\\moodle2/mod/quiz',
       'resource' => 'D:\\XAMPP\\htdocs\\moodle2/mod/resource',
